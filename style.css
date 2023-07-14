@@ -1,0 +1,65 @@
+.card {
+  background-color: #fff;
+  padding-inline: 1rem;
+  padding-block: 2rem;
+  border-radius: 10px;
+  margin-inline: 1rem;
+}
+
+.card h4 {
+  font-size: 29px;
+  margin-bottom: .5rem;
+}
+
+.card p {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.card div .input {
+  border: 1px solid grey;
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 15px;
+  outline: none;
+}
+
+.input::placeholder {
+  padding-left: 15px;
+  counter-reset: red;
+}
+
+.btn {
+  text-align: center;
+  background-color: purple;
+  height: 50px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  opacity: .7;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.active.btn {
+  opacity: 1;
+}
+
+.result {
+  text-align: center;
+
+  margin-top: 1rem;
+}
+
+.result span {
+  color: purple;
+}
